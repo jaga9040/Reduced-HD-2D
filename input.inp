@@ -1,0 +1,26 @@
+&time_param
+ time_min       =       0.0             ,
+ time_max       =       1.0e1           ,
+ dt             =       1.0e-3          ,
+ itime          =       0               ,
+ file_no        =       0               ,
+ ifile_write    =       1000             ,
+/
+
+&mesh
+ Nx		=       256             ,
+ Ny		=       256             ,
+ Pi_multpl	=	1		,
+ xmin           =       0.0             ,
+ xmax           =       2.0             ,
+ ymin           =       0.0             ,
+ ymax           =       2.0             ,
+/
+
+&phy
+ W0             =       25.0            ,
+ m		=	3		,
+ d              =       7.36e-2         ,
+ pert           =       1.0e-2          ,
+ nu             =       1.5e-3          ,
+/
